@@ -15,6 +15,8 @@ if (!isset($_REQUEST['permalink'])) {
 }else{
 	$pageData = printPage($_REQUEST['permalink']);
 }
+
+
 $arr_page_error = array(
 	'id_content' => 'error',
 	'id_page' => 'error',
