@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-----------------------FUENTES FF-----------*/
+
+@font-face{
+font-family:'Gothic-Bolt';
+src: url('Gothic-Bolt.ttf') format('opentype');
+} 
+/*-----------------------FUENTES FF-----------*/
+
+
+table {
+position:relative;
+background-color: #C6C6C6;
+margin-left: 74px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+table th {
+font-weight: bold;
+text-align:center;
+border: solid 4px #C6C6C6;
+background-color:#878787;
+color:#15214C;
+font-size:11px;
+font-family:'Gothic-Bolt';
+padding:10px;
+color: #FFFFFF;
+}
+
+
+
+table td {
+
+font-size:11px;
+font-family:'Gothic-Bolt';
+text-align:center;
+border: solid 4px #C6C6C6;
+background-color:#B2B2B2;
+color:#706F6F;
+padding:10px;
+width: 120px; height: 38px;
+
+
+}
+
+table td:hover{
+    font-size: 13px;
+}
+
+table tr {
+
+}

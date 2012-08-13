@@ -1,0 +1,623 @@
+/* 
+    Document   : style
+    Created on : 09-jul-2012, 10:30:23
+    Author     : ilatina_pc1
+    Description:
+        Purpose of the stylesheet follows.
+*/
+/*-----------------------FUENTES FF-----------*/
+
+@font-face{
+font-family:'Gothic-Bolt';
+src: url('Gothic-Bolt.ttf') format('opentype');
+} 
+@font-face{
+font-family:'Gothic';
+src: url('Gothic.ttf') format('opentype');
+} 
+/*-----------------------FUENTES FF-----------*/
+
+root { 
+    display: block;
+}
+body{
+ background-color:#C6C6C6;
+    margin:0px;
+    padding:0px;
+    margin-left:auto; 
+    margin-right:auto; 
+
+}
+#page{
+    background-color:#C6C6C6;
+    width: 1150px;
+    height: auto; 
+    margin-left:auto; 
+    margin-right:auto; 
+    margin-top:0px; 
+}
+#header{
+    width:1150px;
+    height:117px;
+    border-bottom: 1px black solid;
+}
+#logo_image{
+    height: 117px; 
+    width: 1070px; 
+    position: absolute; 
+    top: 0px;
+    margin-left: 80px;
+}
+#line{
+    background-color: #70706e;
+    width: 1150px;
+    height: 5px;
+}
+#content{
+    border-top:1px black solid;
+    width: 1150px;
+    height: auto;
+    background-color: #C6C6C6;
+    padding-top: 19px;
+}
+/*+++++++++++++MENU+++++++++++++++++*/
+#content_menu{
+    text-align: center;
+    height:26px;
+    width: 961px;
+    margin-left:85px !important; 
+    margin: 20px auto;
+    z-index:1;
+    
+}
+#content_menu ul { list-style-type: none;padding-left: 0px; z-index:2}
+#content_menu ul li.nivel1 { 
+    float: left;
+    padding:0; 
+    margin-right: 6px;
+    z-index:3;
+}
+#content_menu ul li a {display: block;
+    text-decoration: none;
+    text-align:center;
+    display:block;
+    width:180px;
+    padding:4px 0;
+    font-size:17px;
+    font-family:'Gothic-Bolt';
+    background-color: #878787;
+
+}
+#content_menu ul li:hover {position: relative;
+}
+#content_menu ul li a:hover, #content_menu ul li:hover a.nivel1 {
+color: #E6007E !important;
+position: relative;
+}
+#content_menu ul li a.nivel1 {display: block!important;display: none;
+position: relative;
+}
+#content_menu ul li ul {display: none;padding-left:0px;z-index:4;
+}
+#content_menu ul li ul li{
+    margin-top: 6px;z-index:5;
+}
+#content_menu ul li a:hover ul, #content_menu ul li:hover ul {display: block;
+position: absolute;left: 0px;
+}
+#content_menu ul li ul li a {width: 180px;
+padding:4px 0px;
+}
+#content_menu ul li ul li a:hover {border-top-color: #000;
+position: relative;
+}
+/*+++++++++++++MENU+++++++++++++++++*/
+#content_brad{
+    margin-top:20px;
+    margin-bottom: 20px;
+    width: 960px;
+    height: 15px; 
+    margin-left: 85px;
+}
+#content_brad_ul{
+ padding-left: 0px;
+ color: #E6007E ;
+ margin: 0px;
+}
+#content_brad_ul li{
+ float:left;
+ margin-right:25px;
+}
+#content_brad_ul li a{
+    display:block;
+    font-size:17px;
+}
+#title{
+    width: 960px;
+    height: 40px;
+    background-color: #B2B2B2;
+    margin-left: 85px;   
+    margin-bottom:22px;
+}
+#title p{
+    font-size:25px;
+    color:#FFFFFF;
+    padding-top: 7px;
+    padding-left: 17px;
+}
+#content_text{
+    width: 960px;
+    margin-left: 85px;
+    height: auto;
+    margin-bottom: 28px;
+}
+#content_text_image{
+    height: 165px;
+    width: 240px;
+    float:left;
+    margin-bottom: 23px;
+    margin-right: 27px;
+}
+
+#content_text p{
+    color: #575756;
+    line-height: 25px;
+    font-family:'Gothic';
+    margin-bottom: 10px;
+}
+
+#content_text ul{
+    list-style-image:url(../img/li.png);
+    padding-left: 40px; 
+    margin-top: 16px; 
+    margin-bottom: 16px; 
+}
+
+#content_text ol{
+    list-style-image:url(../img/li.png);
+    padding-left: 40px; 
+    margin-top: 16px; 
+    margin-bottom: 16px; 
+}
+
+#footer{
+    height: 61px;
+    width: 1150px;
+    background-color: #C6C6C6;
+    float: left;
+}
+#ul_footer{
+ padding-left: 0px;
+ color: #E6007E ;
+ margin-left: 474px; 
+ margin-top: 0px;
+ padding-top: 15px;
+ margin-bottom: 0px;
+}
+#ul_footer li{
+    float:left;
+    margin-right:25px;
+}
+#ul_footer li a{
+    display:block;
+    font-size:14px;
+    font-family:'Gothic';
+    text-decoration: none;
+    color: #575756;
+}
+#table_form{
+    height: auto;
+    width: 960px;
+    margin-left: 85px;
+    padding-left: 74px;
+    margin-bottom: 29px;
+}
+#table th{
+    
+}
+#text{
+    height: auto;
+    width: 960px;
+    margin-left: 85px;
+    margin-bottom: 22px;
+}
+#archivos{
+    height: auto;
+    width: 860px;
+    margin-left: 85px;
+    background-color:#878787;
+    padding-left: 100px;
+    padding-top:19px;
+    padding-bottom: 14px;
+    float:left;
+}
+#archivos ul{
+    font-family: 'Gothic';
+    margin-top: 0px;
+    float:left;
+    margin-bottom: 0px;
+}
+#archivos ul li{
+    float: left; 
+    padding:0;
+    margin-right: 205px;
+    margin-bottom: 24px; 
+}
+#archivos a{
+    text-decoration: none; 
+    color: #575756;
+    text-align: center;
+}
+#archivos label:hover{
+    color: #E6007E!important;
+}
+#archivos label{
+    height: 24px!important;
+    cursor: pointer;
+    padding-left: 19px;
+    margin-top: 7px;
+    position: absolute;
+    color: #575756; 
+    text-decoration: none;
+}
+#enlaces{
+    margin-left: 85px;
+    height: auto;
+    width: 960px;
+    border-top: 2px #E6007E solid;
+    float: left;
+}
+#enlaces_title{
+    background-color:#878787;
+    width: 153px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align:center;
+    padding-top: 3px; 
+    height: 17px;
+}
+#enlaces_title p{
+    font-size:12px;
+    font-family:'Gothic';
+    color: #FFFFFF;
+    margin-top: 0px;
+}
+#enlaces a p{
+    margin-bottom: 13px;
+    text-decoration: none;
+}
+#enlaces A:link {text-decoration:none; color:#575756;}
+#enlaces A:active {text-decoration: none;color:#E6007E;}
+#enlaces A:visited {text-decoration: none; color:#878787;}
+#enlaces A:hover {text-decoration: none; color:#E6007E;}
+
+
+.mapa A:link {text-decoration:none; color:#575756;}
+.mapa A:active {text-decoration: none;color:#E6007E;}
+.mapa A:visited {text-decoration: none; color:#878787;}
+.mapa A:hover {text-decoration: none; color:#E6007E;}
+
+#content_slide_show{
+    width: 959px;
+    margin-left: 85px;
+    background-color: #878787;
+    height: 180px;
+    
+}
+#notice_show{margin-left: 11px;}
+#content_notice{
+    width: 959px;
+    height: 277px;
+    background-color: #FFFFFF;
+    margin-left: 85px;
+    margin-top: 26px;
+    border-top: 2px #CC0066 solid;
+    border-bottom: 2px #CC0066 solid;
+}
+#content_youtube{
+    width: 281px;
+    height: 244px;
+    margin-top: 15px;
+    border-right: 1px #E6007E solid ;
+    position: absolute;
+}
+#title_video{
+    width: 180px;
+    height: 26px;
+    background-color: #B2B2B2;
+    margin-left: 27px;
+}
+#title_video p{
+    font-size:17px;
+    color:#FFFFFF;
+    padding-top: 2px;
+    text-align:center;
+    margin-top: 0px;
+    font-family:'Gothic';
+}
+#youtube{
+    margin-top: 12px;
+    width: 280px;
+    height: 196px;
+}
+#notice{
+      margin-left: 25px; 
+      height: 262px; 
+      width: 651px;
+      float: right;
+      margin-top: 15px;
+}
+#title_notice{
+    width: 180px;
+    height: 26px;
+    background-color: #B2B2B2;
+    margin-left: 11px;
+    text-align: center;
+}
+#title_notice p{
+    font-size:17px;
+    color:#FFFFFF;
+    padding-top: 2px;
+    text-align:center;
+    margin-top: 0px;
+    font-family:'Gothic';
+}
+#notice_show{
+    margin-top: 11px;
+    height: 205px; 
+    width: 599px;
+    float: left;
+}
+#vertical_line{
+    float: left;
+    border-right: 1px #E6007E solid;
+    height: 173px;
+    width: 27px;
+    margin-top: 32px;
+}
+.more{
+    margin-top: -10px;
+    width:15px;
+    height: 15px; 
+    float:right;
+    background-color: #878787;
+}
+/*.parrafo p{color: #575756; line-height: 25px; text-align: justify; font-family:'Gothic'; clear: none !important;}*/
+.intro {margin: 0px;font-family:'Gothic';font-size: 12px;}
+
+#content_text p{
+    color: #575756;
+    line-height: 25px;
+    font-family:'Gothic';
+    clear: none !important;
+}
+
+textarea{resize: none;}
+
+
+
+/*                      productos                */
+#content_product{
+    height: auto;
+    width: 959px;
+    margin-left: 85px;   
+}
+#content_left_product{
+    height: auto;
+    width: 770px;
+}
+/*+++++++++++++MENU PRODUCTO HORIZONTAL+++++++++++++++++*/
+#content_menu_product_horizontal{
+    height: 26px;
+    width: 770px;
+    text-align: center;
+    margin-bottom: 2px;
+    margin-top: 20px;
+}
+#content_menu_product_horizontal ul { 
+    list-style-type: none;
+    padding-left: 0px;
+    z-index:2;
+    margin-left: 317px;
+}
+#content_menu_product_horizontal ul li.nivel1 { 
+    float: left;
+    padding:0; 
+    margin-left: 1px;
+    z-index:3;
+    height: 26px;
+}
+#content_menu_product_horizontal ul li a {display: block;
+    text-decoration: none;
+    text-align:center;
+    display:block;
+    width:150px;
+    padding:3px 0;
+    font-size:15px;
+    font-family:'Gothic';
+    background-color: #878787;
+    height:21px
+
+}
+#content_menu_product_horizontal ul li:hover {position: relative;
+}
+#content_menu_product_horizontal ul li a:hover, #content_menu_product_horizontal ul li:hover a.nivel1 {
+color: #E6007E !important;
+position: relative;
+}
+#content_menu_product_horizontal ul li a.nivel1 {display: block!important;display: none;
+position: relative;
+}
+#content_menu_product_horizontal ul li ul {display: none;padding-left:0px;z-index:4;
+}
+#content_menu_product_horizontal ul li ul li{
+    margin-top: 6px;z-index:5;
+}
+#content_menu_product_horizontal ul li a:hover ul, #content_menu_product_horizontal ul li:hover ul {display: block;
+position: absolute;left: 0px;
+}
+#content_menu_product_horizontal ul li ul li a {width: 180px;
+padding:4px 0px;
+}
+#content_menu_product_horizontal ul li ul li a:hover {border-top-color: #000;
+position: relative;
+}
+/*+++++++++++++MENU PRODUCTO HORIZONTAL+++++++++++++++++*/
+#content_product_text{
+  height: auto;
+  width: 770px;
+  background-color:#868685;
+  float: left;
+}
+#content_product_text_image{
+/*    height: 186px;*/
+    width: 220px;
+    float: left;
+}
+#popup{
+    width: 21px;
+    height:21px;
+    background-color:#FFFFFF;
+    margin-top: -22px;
+    margin-left: 201px;
+}
+#product_text{
+    width: 524px;
+    height: auto;
+/*    margin-left: 236px;*/
+    margin-top: 0px;
+    padding-top: 29px;
+    float: right;
+}
+#product_text p{
+    font-size:15px;
+    font-family:'Gothic';
+    line-height: 25px;
+    color:#FFFFFF;
+}
+#product_archivo{
+    width: 220px;
+/*    position: relative;*/
+/*    top: -100px; */
+/*    margin-top: 17px;*/
+margin-top: 0px; /*padding-top: 176px;*/
+}
+
+#product_archivo label:hover{
+    color: #E6007E;
+}
+
+#product_archivo label{
+    position:absolute;
+    cursor:pointer;
+    margin-left: 20px;
+    margin-top: 7px;
+    width: 161px; 
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#product_link{
+    margin-top: 25px;
+    width: 524px;
+    border-left-width: 0px; 
+    margin-left: 236px;
+}
+#button_consultar{
+    width: 770px;
+    height: 37px;
+    float: right;
+/*    margin-top: -149px;*/
+    padding-bottom: 12px;
+}
+#content_right_product{
+/*    width: 180px;*/
+    float: right; 
+   margin-top: -44px;
+/*    position: relative;
+    top: -433px;*/
+}
+/*+++++++++++++MENU PRODUCTO VERTICAL+++++++++++++++++*/
+#content_menu_product_vertical{
+    height: 26px;
+    width: 180px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+#content_menu_product_vertical ul { 
+    list-style-type: none;
+    padding-left: 0px;
+    z-index:2;
+}
+#content_menu_product_vertical ul li.nivel1 {
+    padding:0; 
+    z-index:3;
+    height: 26px;
+    margin-bottom: 7px;
+}
+#content_menu_product_vertical ul li a {display: block;
+    text-decoration: none;
+    text-align:center;
+    display:block;
+    width:180px;
+    padding:3px 0;
+    font-size:17px;
+    font-family:'Gothic-Bolt';
+    background-color: #878787;
+    height:21px
+
+}
+#content_menu_product_vertical ul li:hover {position: relative;
+}
+#content_menu_product_vertical ul li a:hover, #content_menu_product_vertical ul li:hover a.nivel1 {
+color: #E6007E !important;
+position: relative;
+}
+#content_menu_product_vertical ul li a.nivel1 {display: block!important;display: none;
+position: relative;
+}
+#content_menu_product_vertical ul li ul {display: none;padding-left:0px;z-index:4;
+}
+#content_menu_product_vertical ul li ul li{
+    margin-top: 6px;z-index:5;
+}
+#content_menu_product_vertical ul li a:hover ul, #content_menu_product_vertical ul li:hover ul {display: block;
+position: absolute;left: 0px;
+}
+#content_menu_product_vertical ul li ul li a {width: 180px;
+padding:4px 0px;
+}
+#content_menu_product_vertical ul li ul li a:hover {border-top-color: #000;
+position: relative;
+}
+/*+++++++++++++MENU PRODUCTO VERTICAL+++++++++++++++++*/
+
+#content_product_text p{ clear: none !important;}
+
+#product_text ul{
+    padding-left: 70px;
+    padding-right: 99px;
+}
+#product_text li{
+    color: #FFFFFF;
+    font-family: 'Gothic';
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding-left: 13px;
+}
+
+.nivel1 A:link {text-decoration:none; color:#FFFFFF;}
+.nivel1 A:visited {text-decoration: none; color:#FFFFFF;}
+.nivel1 A:active {text-decoration: none;color:#E6007E;}
+.nivel1 A:hover {text-decoration: none; color:#E6007E;}
+
+.notice_title{
+    width:438px; 
+    text-align: left;
+}
+.notice_title a{
+    color:#575756;
+}
+.notice_title a:hover{
+    color:#E6007E;
+    
+}

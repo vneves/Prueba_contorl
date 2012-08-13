@@ -1,0 +1,311 @@
+body, html {
+	width:100%;
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+#div_pagination {
+	padding:5px 0px;
+	font-size:11px;
+}
+#div_pagination select{
+	font-size:11px;
+}
+form {
+	margin:0px;
+	padding:0px;
+}
+body, td, p {
+	font-size:11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:#757575;
+}
+a img {
+	border:0px;
+}
+.a, .a:hover, a.visited {
+	color:#757575;
+	text-decoration:none;
+}
+.copyright {
+	color:#757575;
+	text-decoration:none;
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.space_up{
+	height:135px;
+}
+.error_message{
+	color:#FF0000;
+}
+.space_down{
+	height:15px;
+}
+.green_title{
+	background-color:#99CC33;
+	font-size:14px;
+	color:#FFFFFF;
+	height:28px;
+	line-height:28px;
+}
+.form_body {
+	clear:both;
+	background-color:#EDEDED;
+}
+.fieldTextArea, .fieldTextAreaFranchisee{
+	border:1px solid #EDEDED;
+	font-size:12px;
+	color:#000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.fieldTextAreaFranchisee{
+	width:314px;
+}
+.form_field, .fieldText, .fieldPassword {
+	border:1px solid #EDEDED;
+	height:16px;
+	font-size:12px;
+	color:#000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.fieldPassword{
+	width:222px;
+}
+.fieldSelect {
+	font-size:12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+}
+.form_submit, .button{
+	/*
+	padding-left:10px;
+	padding-right:10px;
+	*/
+	border:1px solid #999999;
+	background-color:#999999;
+	font-size:11px;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.login_submit{
+	background-color:#636363;
+	color:#FFFFFF;
+	border:1px solid #636363;
+}
+.div_content{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+}
+.page_title{
+	font-size:16px;
+	color:#7D7D7D;
+}
+.odd_row{
+	background-color:#EDEDED;
+	height:28px;
+}
+.even_row{
+	background-color:#FFFFFF;
+	height:28px;
+}
+.submenu{
+	float:left;
+	width:164px;
+}
+.submenu_separator{
+	width: 151px;
+	background-color:#93BD23;
+	clear:both;
+}
+div.submenu_section, div.submenu_option{
+	line-height:24px;
+}
+div.submenu_option{
+	padding-left:24px;
+	clear:both;
+}
+a.submenu_section {
+	text-decoration:none;
+	font-size:12px;
+	color:#8c8c8c;
+}
+a.submenu_section_selected{
+	text-decoration:none;
+	font-size:12px;
+	color:#93BD23;
+}
+a.submenu_option{
+	text-decoration:none;
+	font-size:10px;
+	color:#8C8C8C;
+}
+a.submenu_option_selected{
+	text-decoration:none;
+	font-size:10px;
+	color:#93BD23;
+}
+a.submenu_section:hover, a.submenu_option:hover{
+	color:#93BD23;
+}
+
+.fieldTextArea{
+	width:570px;
+}
+.table_list * a, .table_list * a:visited, .table_list a, .table_list a:visited{
+	text-decoration:none;
+	color:#757575;
+}
+.table_list * a:hover, .table_list a:hover{
+	color:#000000;
+}
+/*--Path Bar-->*/
+#div_path {
+	padding-bottom:10px;
+}
+#div_path * a, #form_file * a{
+	font-size:10px;
+	text-decoration:none;
+	color:#8C8C8C;
+}
+#div_path * a:hover, #form_file * a:hover{
+	color:#000000;
+}
+#div_file_types{
+	font-size:12px;
+	padding-bottom:10px;
+}
+#div_file_types a {
+	font-size:12px;
+	text-decoration:none;
+	color:#8C8C8C;
+}
+#div_file_types a:hover {
+	color:#000000;
+}
+#div_file_types a.selected, #div_file_types a.selected:hover {
+	color:#99CC33;
+}
+/*<--Path Bar--*/
+
+/*--PAGINA DE INICIO-->*/
+.field_label{
+	padding-left:16px;
+	font-size:12px;
+	color:#636363;
+}
+
+.td_welcome{
+	background-image:url(images/loginform_header.gif);
+	width:354px;
+	height:45px;
+	font-size:19px;
+	color:#FFFFFF;
+}
+.td_welcomeform{
+	border-left:1px solid #BFBFBF;
+	border-bottom:1px solid #BFBFBF;
+	border-right:1px solid #BFBFBF;
+}
+.table_intro {
+	width:100%;
+	height:100%;
+}
+.table_header {
+	width:100%;
+	height:100px;
+	background-color:#CCCCCC;
+}
+.input{
+	width:143px;
+	border:1px solid #93BD23;
+}
+.remember_password {
+	text-decoration:none;	
+}
+/*<--PAGINA DE INICIO--*/
+/*--MENU-->*/
+.menu_table{
+	border-bottom:1px solid #BFBFBF;
+	border-top:1px solid #BFBFBF;
+	height:22px;
+}
+.menulink_option {
+	color:#8C8C8C;
+	text-decoration:none;
+	font-size:12px;
+}
+.menulink_option_selected {
+	color:#FFFFFF;
+	text-decoration:none;
+	font-size:12px;
+}
+.menu_td_selected {
+	text-align:center;
+	/*width:145px;*/
+	background-color:#93BD23;
+	padding:0px 10px;
+}
+.menu_td_separator{
+	width:1px;
+	background-color:#93BD23;
+}
+.menu_td{
+	text-align:center;
+	background-color:#FFFFFF;
+	padding:0px 10px;
+	/*width:125px;*/
+}
+/*<--MENu--*/
+.tr_compra_header td{
+	background-color:#757575;
+	color:#FFFFFF;
+	height:28px;
+}
+a.linkPasajero
+{
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	color:#757575;
+}
+a.linkPasajero:hover 
+{
+	text-decoration: none;
+	color:#757575;
+} 
+.tituloCabe
+{
+	width:100%;
+	padding-bottom:4px;
+	padding-top:4px;
+	border-bottom:1px solid #99CC33;
+}
+.toolpadding
+{
+
+	padding-top:6px;
+	
+}
+
+.noselec
+{
+	font-weight:bold;
+	padding:8px;
+}
+a.enlace_link
+{
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	color: #aaaaaa;
+}
+a.enlace_link:hover 
+{
+	text-decoration:none;
+	color: #0B3A8B;
+} 
