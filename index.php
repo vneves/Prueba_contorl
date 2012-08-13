@@ -105,10 +105,10 @@ if (strpos($_SERVER["HTTP_USER_AGENT"], "MSIE") !== false) {
         <!--CARRUSELL-->
         <link href="js/carrusel/style.css" rel="stylesheet" type="text/css" />
         <!--jQuery library -->
-<!--        <script type="text/javascript" src="js/carrusel/lib/jquery-1.4.2.min.js"></script>-->
+<!--        <script type="text/javascript" src="js/carrusel/lib/jquery-1.4.2.min.js"></script>
         <!--jCarousel library-->
         <script type="text/javascript" src="js/carrusel/lib/jquery.jcarousel.min.js"></script>
-        <script type="text/javascript" src="js/carrusel/carrusel.js"></script>
+        <script type="text/javascript" src="js/carrusel/carrusel.js"></script>-->
         <!--jCarousel skin stylesheet-->
         <link rel="stylesheet" type="text/css" href="js/carrusel/skins/tango/skin.css" />
         
